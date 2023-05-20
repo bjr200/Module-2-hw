@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Developer Portfolio</title>
+  <style>
+    /* CSS Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f1f1f1;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .avatar {
+      display: block;
+      margin: 0 auto;
+      width: 150px;
+      border-radius: 50%;
+    }
+
+    .work-section img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .work-section img:first-child {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Developer Portfolio</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <section id="about">
+    <h2>About me</h2>
+    <img class="avatar" src="avatar.jpg" alt="Avatar">
+    <p>Developer's name: Ben Rashleigh</p>
+  </section>
+  
+  <section id="work">
+    <h2>My Work</h2>
+    <div class="work-section">
+      <a href="application1.html">
+        <img src="application1.jpg" alt="Application 1">
+      </a>
+      <a href="application2.html">
+        <img src="application2.jpg" alt="Application 2">
+      </a>
+      
+    </div>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <!-- Contact info here -->
+    <div>email.ben@email.com</div>
+  </section>
+</body>
+</html>
+
+
